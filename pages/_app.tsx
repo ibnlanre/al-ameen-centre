@@ -1,13 +1,13 @@
 import { AppProps } from "next/app";
-import { Mulish } from "next/font/google";
+import { Maven_Pro } from "next/font/google";
 
 import "../styles/globals.css";
 
-const mulish = Mulish({ subsets: ["latin"] });
+const maven_pro = Maven_Pro({ subsets: ["latin"] });
 
 export default function RootLayout({ Component, pageProps }: AppProps) {
   return (
-    <main className={mulish.className}>
+    <main className={maven_pro.className}>
       <Component {...pageProps} />
     </main>
   );

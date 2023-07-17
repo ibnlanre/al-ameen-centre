@@ -1,0 +1,9 @@
+@import url("al-quran-ali/al-quran-ali.css");
+.font-quran {
+  font-family: "Al-Quran-Ali" !important;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap");
+.font-maven {
+  font-family: "Maven Pro", sans-serif;
+}
